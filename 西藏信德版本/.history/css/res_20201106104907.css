@@ -1,0 +1,153 @@
+/* body{
+    background-image:url(../img/help-banner.png ) ;
+
+    background-size: cover;
+} */
+
+.rg_outer {
+    border: 1px solid #e3e3e3;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    /*让div水平居中*/
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.rg_title {
+    height: 40px;
+    
+    padding-left: 21px;
+    font-family: 微软雅黑;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    background: rgb(243, 243, 243);
+}
+.rg_title>h3{
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.rg_left_one {
+    color: #a5a5a5;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.rg_left_two {
+    color: #A4A6A3;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.rg_center {
+    /*border: 1px solid red;*/
+    width: 450px;
+    float: left;
+    margin-top: 50px;
+}
+
+.rg_right {
+    /*border: 1px solid red;*/
+    float: right;
+    margin: 15px;
+}
+
+.rg_right p {
+    font-size: 15px;
+}
+
+.rg_right p a {
+    color: #ff3358;
+    text-decoration: none;
+}
+
+.td_left {
+    text-align: right;
+    width: 100px;
+    height: 45px;
+}
+
+.td_right {
+    padding-left: 45px;
+}
+
+#username,
+#birthday,
+#email,
+#password,
+#password2,
+#tel {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #A4A6A3;
+    /*设置边框圆角*/
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#checkcode {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #A4A6A3;
+    /*设置边框圆角*/
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#img_check {
+    width: 100px;
+    height: 30px;
+    /*垂直居中对齐*/
+    vertical-align: middle;
+}
+
+.warnings {
+    color: red;
+    ;
+}
+
+input::-webkit-input-placeholder {
+    /* WebKit browsers 适配谷歌 */
+    color: #BDCADA;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 适配火狐 */
+    color: #BDCADA;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ 适配火狐 */
+    color: #BDCADA;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10+  适配ie*/
+    color: #BDCADA;
+}
+
+.submit-btn {
+    /* border: 1px solid #5a8ddaf5; */
+    width: 180px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.842);
+    font-family: inherit;
+    font-weight: 100;
+    font-size: 16px;
+    margin: -3px 0px;
+    padding: 5px 15px;
+  
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 75px;
+     background: #5a8ddaf5;
+    color: white;
+}
+
+
+
+.submit-btn:focus {
+    outline: none;
+}

@@ -1,0 +1,372 @@
+.banner {
+    background-image: url(../img/newsbanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px 100%;
+    height: 300px;
+    /*margin-top: -67px;*/
+    /* filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="../img/message.jpg", sizingMethod="scale"); */
+}
+
+.banner .ta {
+    margin-top: 50px;
+}
+
+.banner .tb {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*信息披露 公用 模块头部*/
+
+.msg-show-head {
+    position: relative;
+    line-height: 18px;
+    padding-top: 40px;
+    border-bottom: 1px solid rgba(27, 35, 51, .1);
+    padding-bottom: 2px;
+    font-size: 18px;
+}
+
+.msg-show-head li {
+    display: inline-block;
+    margin-left: 37px;
+    padding-bottom: 8px;
+    /* cursor: pointer; */
+    color: #1b233a;
+}
+
+.msg-show-head li:first-child {
+    margin-left: 0px;
+}
+
+.message-dynamic .msg-show-head li:first-child {
+    font-size: 24px;
+}
+
+.msg-show-head li.active {
+    /*border-bottom: 1px solid #ff3358;*/
+    color: #ff3358;
+}
+
+.msg-show-head li:hover {
+    color: #ff3358;
+    /*border-bottom: 1px solid #ff3358;*/
+}
+
+
+/*动态*/
+
+.message-dynamic {
+    width: 800px;
+    float: left;
+}
+
+.message-dynamic .msg-dnm-body li {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    /*height: 150px;*/
+    /*border-top: 1px dotted #dfe1eb;*/
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px dotted rgba(27, 35, 58, .1);
+}
+
+.message-dynamic .msg-dnm-body li:last-child {
+    border-bottom: 0;
+}
+
+.message-dynamic .msg-dnm-body li:first-child {
+    border-top: none;
+}
+
+.msg-dnm-body li img {
+    float: left;
+    width: 207px;
+    height: 130px;
+    margin-right: 80px;
+}
+
+.msg-dnm-body li h4 {
+    margin-bottom: 4px;
+    display: block;
+}
+
+.msg-dnm-body li .news-tag {
+    display: inline-block;
+    width: 60px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #4990e2;
+    color: #4990e2;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.msg-dnm-body li .news-title {
+    position: relative;
+    display: inline-block;
+    margin-left: 12px;
+    width: 720px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.msg-dnm-body li .date {
+    font-size: 14px;
+    color: #8892ad;
+    margin-bottom: 4px;
+    text-align: right;
+    line-height: 24px;
+    margin-top: -24px;
+    margin-right: 2px;
+}
+
+.msg-dnm-body li .msg-dnm-text {
+    position: relative;
+    /*height: 72px;*/
+    font-size: 14px;
+    margin-top: 26px;
+    line-height: 24px;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    max-height: 116px;
+}
+
+.msg-dnm-body .msg-dnm-text .to-details {
+    margin-left: 4px;
+    color: #4990e2;
+}
+
+.msg-dnm-body .msg-dnm-text .to-details:hover {
+    color: #ff3358;
+}
+
+
+/*规则、问题*/
+
+.rule-question {
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+}
+
+.rule-question-body {
+    padding: 4px 20px 25px;
+    font-size: 14px;
+    background: #fafafa;
+}
+
+.rule-question-body .rule-question-item {
+    padding-top: 15px;
+    height: 48px;
+    border-bottom: 1px dotted rgba(27, 35, 58, .1);
+}
+
+.msg-show-head .more {
+    position: absolute;
+    top: 44px;
+    right: 0;
+    font-size: 14px;
+}
+
+
+/*其他*/
+
+.msg-else-right {
+    float: left;
+    /*margin-left: 28px;*/
+}
+
+.msg-else-right>p {
+    line-height: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-left: 14px;
+    border-left: 2px solid #ff3358;
+}
+
+.msg-else-right>div {
+    width: 1200px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.msg-else-right ul {
+    width: 290px;
+    float: left;
+    margin-left: 145px;
+}
+
+.msg-else-right ul:first-child {
+    margin-left: 0;
+}
+
+.msg-else-right ul>div {
+    margin-bottom: 20px;
+}
+
+.msg-else-right ul>div img {
+    margin-right: 12px;
+}
+
+.msg-else-right li {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    line-height: 20px;
+    font-size: 14px;
+    border-bottom: 1px dotted #dfe1eb;
+    width: 290px;
+}
+
+a {
+    color: #1b233a;
+}
+
+a:hover {
+    color: #ff3358;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+
+/*电梯*/
+
+.tbox {
+    position: fixed;
+    left: 50%;
+    margin-left: 600px;
+    bottom: 0px;
+    margin-top: 0px;
+}
+
+.tbox a {
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #DFE1EB;
+    color: #8892AD;
+    display: block;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin-top: 6px;
+    background: #ffffff;
+    transition: all 0.3s linear;
+}
+
+.tbox a:active,
+.tbox a:hover,
+.tbox a:visited,
+.tbox a.active {
+    border-color: #ff3358;
+    color: #ff3358;
+}
+
+.tbox a {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    text-align: center;
+}
+
+.tbox .backtop {
+    background: url(image/backtop.jpg) center no-repeat;
+    background-size: 100% 100%;
+}
+
+.backtop img {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.backtop span {
+    transition: all 0.3s ease;
+    background: white;
+    display: block;
+    width: 34px;
+    height: 38px;
+}
+
+.backtop:hover span {
+    opacity: 0;
+}
+
+.backtop:hover {
+    opacity: 1;
+}
+
+
+/*电梯 end*/
+
+.banner .t {
+    padding-bottom: 80px
+}
+
+.banner .tt p {
+    text-align: center;
+}
+
+.banner .ta {
+    font-size: 32px;
+    color: #fff;
+    margin-top: 114px;
+}
+
+.banner .tb {
+    font-size: 24px;
+    color: #a8b3d4;
+    margin-top: 25px;
+}
+
+.banner .info-more {
+    font-size: 14px;
+    float: right;
+    color: #8892ad;
+    cursor: pointer;
+}
+
+.banner .info-more:hover {
+    color: #ff3358;
+}
+
+.banner .info-more i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.rule-question-body .rule-question-item>a,
+.msg-else-right li>a {
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.info-more {
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+}
+
+.info-more:hover {
+    color: #ff3358;
+}
+
+.info-more i {
+    margin-left: 5px;
+    font-size: 12px;
+}

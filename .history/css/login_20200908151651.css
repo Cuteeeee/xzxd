@@ -1,0 +1,132 @@
+/* body{
+    background-image:url(../img/help-banner.png ) ;
+
+    background-size: cover;
+} */
+
+.rg_outer {
+    border: 8px solid #988A7B;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    /*让div水平居中*/
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.rg_left {
+    /*border: 1px solid red;*/
+    float: left;
+    margin: 15px;
+}
+
+.rg_left_one {
+    color: #ff3358;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.rg_left_two {
+    color: #A4A6A3;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.rg_center {
+    /*border: 1px solid red;*/
+    width: 450px;
+    float: left;
+    margin-top: 25px;
+}
+
+.rg_bottom {
+    /*border: 1px solid red;*/
+    float: right;
+    padding-bottom: 100px;
+}
+
+.rg_bottom p {
+    font-size: 15px;
+}
+
+.rg_bottom p a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.td_left {
+    text-align: right;
+    width: 100px;
+    height: 45px;
+}
+
+.td_right {
+    padding-left: 45px;
+}
+
+#username,
+#birthday,
+#email,
+#password,
+#tel {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #A4A6A3;
+    /*设置边框圆角*/
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#checkcode {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #A4A6A3;
+    /*设置边框圆角*/
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#img_check {
+    width: 100px;
+    height: 30px;
+    /*垂直居中对齐*/
+    vertical-align: middle;
+}
+
+
+/* 按钮 */
+
+#btn_login {
+    width: 210px;
+    height: 40px;
+    background-color: #ff3358;
+    border: 1px #ff3358;
+    border-radius: 6px;
+    margin: 30px auto;
+    margin-left: 110px;
+}
+
+#btn_login:hover {
+    color: white;
+}
+
+input::-webkit-input-placeholder {
+    /* WebKit browsers 适配谷歌 */
+    color: #BDCADA;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 适配火狐 */
+    color: #BDCADA;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ 适配火狐 */
+    color: #BDCADA;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10+  适配ie*/
+    color: #BDCADA;
+}

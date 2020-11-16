@@ -1,0 +1,680 @@
+/**************reset.css***************/
+
+
+/* 清除内外边距 */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+
+/* structural elements 结构元素 */
+
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+
+/* list elements 列表元素 */
+
+pre,
+
+/* text formatting elements 文本格式元素 */
+
+fieldset,
+lengend,
+button,
+input,
+textarea,
+
+/* form elements 表单元素 */
+
+th,
+td {
+	/* table elements 表格元素 */
+	margin: 0;
+	padding: 0;
+}
+
+
+/* 设置默认字体 */
+
+* {
+	font-family: arial,"Noto Sans CJK SC", "Source Han Sans CN", sans-serif;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	/* for ie */
+	/*font: 14px Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+	/* font: 14px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;*/
+	font: 14px Arial,"Noto Sans CJK SC", "Source Han Sans CN", sans-serif;
+	/* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5,
+h6 {
+	font-size: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+	font-style: normal;
+}
+
+
+/* 将斜体扶正 */
+
+code,
+kbd,
+pre,
+samp,
+tt {
+	font-family: "Courier New", Courier, monospace;
+}
+
+
+/* 统一等宽字体 */
+
+small {
+	font-size: 12px;
+}
+
+
+/* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+
+/* 重置列表元素 */
+
+ul,
+ol {
+	list-style: none;
+}
+
+
+/* 重置文本格式元素 */
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #ff3358;
+}
+
+
+/*a:hover { text-decoration: underline; }*/
+
+abbr[title],
+acronym[title] {
+	/* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+q:before,
+q:after {
+	content: '';
+}
+
+
+/* 重置表单元素 */
+
+legend {
+	color: #000;
+}
+
+
+/* for ie6 */
+
+fieldset,
+img {
+	border: none;
+}
+
+
+/* img 搭车：让链接里的 img 无边框 */
+
+
+/* 注：optgroup 无法扶正 */
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+	outline: 0;
+	font-size: 100%;
+	/* 使得表单元素在 ie 下能继承字体大小 */
+	box-shadow: none;
+}
+
+
+/*按钮圆角*/
+
+button {
+	border-radius: 4px;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-ms-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+
+/* 重置表格元素 */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* 重置 hr */
+
+hr {
+	border: none;
+	height: 1px;
+}
+
+
+/*去除粗体   dt */
+
+dt {
+	font-weight: normal;
+}
+
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+
+html {
+	overflow-y: scroll;
+}
+
+
+/*base*/
+
+html,
+body {
+	color: #1b233a;
+}
+
+input {
+	-webkit-box-shadow: none;
+	-ms-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+input[type="radio"] {
+	appearance: radio;
+	-moz-appearance: radio;
+	-webkit-appearance: radio;
+}
+
+input[type="checkbox"] {
+	appearance: checkbox;
+	-moz-appearance: checkbox;
+	-webkit-appearance: checkbox;
+}
+
+
+/**************reset.css  end***************/
+
+
+/***************base.css******************/
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.white {
+	color: #FFF;
+}
+
+.index-gray {
+	color: #939aa7;
+}
+
+.index-graybg {
+	background: #f1f2f6;
+}
+
+.bluebg {
+	background: #f3fbff
+}
+
+.bluebg1 {
+	background: #e8f7ff
+}
+
+.blod {
+	font-weight: bold
+}
+
+.gray {
+	color: #909090
+}
+
+.graya {
+	color: #98a4b8;
+	font-weight: normal;
+}
+
+.grayb {
+	color: #bcc0c9;
+}
+
+.yellow {
+	color: #f98403
+}
+
+.yellow-border {
+	border-bottom: 2px solid #f98403
+}
+
+.yellow1 {
+	color: #ffd200
+}
+
+.red {
+	color: #e1223f
+}
+
+.reda {
+	color: #f43155;
+}
+
+.green {
+	color: #41c6b7;
+}
+
+.greena {
+	color: #42c9c1;
+}
+
+.black1 {
+	color: #333
+}
+
+.red-boder {
+	border: 1px solid #e1223f
+}
+
+.tgrey,
+.tgrey a {
+	color: #8992ad;
+}
+
+.tred {
+	color: #FF3358;
+}
+
+.tredb {
+	color: #d92547
+}
+
+.grey {
+	background: #F6F7FA;
+}
+
+.tgreyb {
+	color: #a8b3d4;
+}
+
+.tblue {
+	color: #4990e2;
+}
+
+.tpurple {
+	color: #8f13fd;
+}
+
+.tblack {
+	color: #1b233a;
+}
+
+.tgold {
+	color: #fbd92f;
+}
+
+.tgreen {
+	color: #42c9c1;
+}
+
+.font-18 {
+	font-size: 18px;
+}
+
+.font-16 {
+	font-size: 16px;
+}
+
+.t12 {
+	font-size: 12px;
+}
+
+.t14 {
+	font-size: 14px;
+}
+
+.t16 {
+	font-size: 16px;
+}
+
+.t18 {
+	font-size: 18px;
+}
+
+.t20 {
+	font-size: 20px;
+}
+
+.t24 {
+	font-size: 24px;
+}
+
+.t32 {
+	font-size: 32px;
+}
+
+.font-24 {
+	font-size: 20px;
+}
+
+.font-18 {
+	font-size: 16px;
+}
+
+.font-16 {
+	font-size: 16px;
+}
+
+.font-12 {
+	font-size: 12px;
+}
+
+.font-14 {
+	font-size: 14px;
+}
+
+.font-10 {
+	font-size: 10px;
+}
+
+.font-30 {
+	font-size: 30px;
+}
+
+.fa {
+	display: inline-block;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mr10 {
+	margin-right: 10px;
+}
+
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.ml10 {
+	margin-left: 10px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.mr20 {
+	margin-right: 20px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.ml20 {
+	margin-left: 20px;
+}
+
+.pt10 {
+	padding-top: 10px;
+}
+
+.pr10 {
+	padding-right: 10px;
+}
+
+.pb10 {
+	padding-bottom: 10px;
+}
+
+.pl10 {
+	padding-left: 10px;
+}
+
+.textover {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.container0 {
+	width: 1200px;
+	padding: 0;
+	margin: 0;
+}
+
+.modal-open {
+	overflow: auto;
+}
+
+.modal {
+	margin-left: -18px;
+	margin-right: -18px;
+}
+
+
+/***************base.css  end******************/
+
+
+/**********bootstrap-reset**********/
+
+.container {
+	width: 1200px;
+}
+
+.navbar-nav>li {
+	float: left;
+}
+
+.form-control:focus {
+	border-bottom: 1px solid #ff3358;
+}
+
+
+
+
+/*按钮*/
+
+.btn-primary {
+	color: #fff;
+	background: #ff3358;
+	border: none;
+}
+
+.btn-primary:hover {
+	background: #d92547;
+}
+
+.btn-default {
+	color: #ff3358;
+	background: #fff;
+	border: 1px solid #ff3358;
+}
+
+.btn-default:hover {
+	color: #fff;
+	background: #ff3358;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+	background: #f0f1f6;
+    color: #a8b3d4;
+}
+/**********bootstrap-reset end**********/
+
+button[type="submit"] {
+	font-family: inherit;
+	font-weight: 100;
+	font-size: 14px;
+	border: 0;
+	margin: -3px 0px;
+	padding: 5px 15px;
+	border-radius: 3px;
+	cursor: pointer;
+	background: #ff3358;
+	;
+	color: #fff;
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+	background: #d92547;
+}
+
+button[type="submit"]:focus {
+	outline: none;
+}
+
+button,
+.btn-primary {
+	background: #ff3358;
+	border-radius: 4px;
+	border: 0;
+	font-family: "微软雅黑";
+	color: white;
+	font-size: 16px;
+	padding: 0;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-ms-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+.wrapper1 {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+
+/* placeholder*/
+
+input[type=text]::-webkit-input-placeholder {
+	color: #cbd1e5 !important;
+}
+
+input[type=text]:-moz-placeholder {
+	color: #cbd1e5 !important;
+	opacity: 1;
+}
+
+input[type=text]::-moz-placeholder {
+	color: #cbd1e5 !important;
+	opacity: 1;
+}
+
+input[type=text]:-ms-input-placeholder {
+	color: #cbd1e5 !important;
+}
+
+textarea::-webkit-input-placeholder {
+	color: #cbd1e5 !important;
+}
+
+textarea:-moz-placeholder {
+	color: #cbd1e5 !important;
+	opacity: 1;
+}
+
+textarea::-moz-placeholder {
+	color: #cbd1e5 !important;
+	opacity: 1;
+}
+
+textarea:-ms-input-placeholder {
+	color: #cbd1e5 !important;
+}
+
+@font-face {
+	 
+}
+.tfont-din_bold {
+	 
+}

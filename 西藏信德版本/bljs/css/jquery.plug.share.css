@@ -1,0 +1,117 @@
+.bdshare-button-style1-16 {
+    zoom: 1;
+    display: inline-flex;
+    position: relative;
+}
+.bdshare-button-style1-16 a {
+    font-size: 12px;
+    padding-left: 17px;
+    line-height: 16px;
+    height: 16px;
+    background-image: url(../../../img/commons/share/icons_1_16.png?v=774cfc30.png);
+    _background-image: url(../../../img/commons/share/icons_1_16_debase.png?v=a2277903.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 2px 6px 0 0;
+}
+.bdshare-button-style1-16 .bds_qzone {
+    background-position: 0 -52px;
+}
+.bdshare-button-style1-16 .bds_tsina {
+    background-position: 0 -104px;
+}
+.bdshare-button-style1-16 .bds_tqq {
+    background-position: 0 -260px;
+}
+.bdshare-button-style1-16 .bds_douban {
+    background-position: 0 -468px;
+}
+.bdshare-button-style1-16 .bds_sqq {
+    background-position: 0 -2652px;
+}
+.bdshare-button-style1-16 .bds_weixin {
+    background-position: 0 -1612px
+}
+.bdshare-button-style1-16 .qrcode {
+	position: absolute;
+	background: #fff;
+	border: solid 1px #d8d8d8;
+    z-index: 11001;
+    font-size: 12px;
+    text-align: center;
+}
+.bd_weixin_popup_bg {
+    position: absolute;
+    left: -400px;
+    top: -400px;
+    width: 260px;
+    height: 320px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    z-index: 11000
+}
+
+.bd_weixin_popup {
+    position: absolute;
+    left: -400px;
+    top: -400px;
+    padding: 10px;
+    width: 240px;
+    height: 300px;
+    background: #fff;
+    border: solid 1px #d8d8d8;
+    z-index: 11001;
+    font-size: 12px
+}
+
+.bd_weixin_popup .bd_weixin_popup_head {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 16px;
+    height: 16px;
+    position: relative;
+    color: #000
+}
+
+.bd_weixin_popup .bd_weixin_popup_head span {
+	margin-left: 0;
+    margin-right: 0;
+    color: #000;
+}
+
+.bd_weixin_popup .bd_weixin_popup_head a {
+	background-image: none;
+}
+
+.bd_weixin_popup .bd_weixin_popup_head .bd_weixin_popup_close {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #999;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.bd_weixin_popup .bd_weixin_popup_head .bd_weixin_popup_close:hover {
+    text-decoration: none
+}
+
+.bd_weixin_popup .bd_weixin_popup_main {
+    padding: 15px 10px;
+    min-height: 150px;
+    _height: 150px
+}
+
+.bd_weixin_popup .bd_weixin_popup_foot {
+    font-size: 12px;
+    text-align: left;
+    line-height: 22px;
+    color: #666
+}

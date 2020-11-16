@@ -1,0 +1,73 @@
+/*关于我们*/
+.aboutUs{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	padding: 30px;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+}
+.aboutUs>.t16{
+	width: 735px;
+	margin-top: 24px;	
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 24px;
+	position: relative;
+	z-index: 1;
+}
+.aboutUs>div>span{
+	margin-top: 16px;
+}
+/*合作伙伴*/
+.partner{
+	width: 100%;
+	text-align: center;
+	height: 200px;
+	background: #f3f3f7;
+}
+.partner h2{
+	margin-top: 30px;
+	margin-bottom: 35px;
+	
+}
+.partner>div{
+	height: 70px;
+}
+.partner img{
+	position: absolute;
+}
+.partner img:nth-child(2){
+	visibility: hidden;
+}
+.partner img:nth-child(2):hover{
+	visibility: visible;
+}
+.partner>div span{
+	display: inline-block;
+	cursor: pointer;
+	vertical-align:middle;
+}
+.partner>div .jindan{
+	margin-right: 350px;
+	margin-left: 65px;
+	width: 170px;
+	height: 50px;
+}
+.partner>div .anyin{
+	margin-right: 350px;
+	width: 133px;
+	height: 45px;
+}
+.partner>div .huoniu{
+	width: 60px;
+	height: 70px;
+	
+}
+.partner .tleft{
+	text-align: left;
+}
+.partner span:hover img{
+	visibility: visible;
+}

@@ -1,0 +1,36 @@
+/**
+ * @file 广告所需css文件
+ * @author zhenghf(zhenghf@xbfax.com)
+ * @date 2017-01-09
+ * @version 1.0
+ */
+ 
+/************************** 弹出窗口 Begin ***************************/
+/* 窗体整体样式 */
+.popupwin {
+	display: none;
+	border-radius: 5px;
+	background: #fff;
+	z-index: 2000;
+	border: 1px solid #ccc;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	height: 200px;
+}
+
+/* 窗体标题样式 */
+.popupwin .winhead {
+	padding: 2px 0;
+	height: 30px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.popupwin .winhead button{
+	margin: 0 5px;
+}
+.popupwin .winhead h4{
+	font-size:16px;
+}
+/************************** 弹出窗口 End ***************************/
